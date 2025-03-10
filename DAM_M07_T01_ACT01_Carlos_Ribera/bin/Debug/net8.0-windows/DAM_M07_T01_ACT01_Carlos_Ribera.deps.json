@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DAM_M07_T01_ACT01_Carlos_Ribera/1.0.0": {
+        "runtime": {
+          "DAM_M07_T01_ACT01_Carlos_Ribera.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAM_M07_T01_ACT01_Carlos_Ribera/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

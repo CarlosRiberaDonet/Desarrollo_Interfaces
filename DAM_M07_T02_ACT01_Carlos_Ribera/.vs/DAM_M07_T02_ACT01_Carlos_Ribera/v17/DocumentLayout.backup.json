@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio\\DAM_M07_T02_ACT01_Carlos_Ribera\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB102C2-4C61-419C-8B6D-9C46A30F7BA3}|DAM_M07_T02_ACT01_Carlos_Ribera.csproj|e:\\visual studio\\dam_m07_t02_act01_carlos_ribera\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CB102C2-4C61-419C-8B6D-9C46A30F7BA3}|DAM_M07_T02_ACT01_Carlos_Ribera.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB102C2-4C61-419C-8B6D-9C46A30F7BA3}|DAM_M07_T02_ACT01_Carlos_Ribera.csproj|e:\\visual studio\\dam_m07_t02_act01_carlos_ribera\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB102C2-4C61-419C-8B6D-9C46A30F7BA3}|DAM_M07_T02_ACT01_Carlos_Ribera.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 468,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Visual Studio\\DAM_M07_T02_ACT01_Carlos_Ribera\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\Visual Studio\\DAM_M07_T02_ACT01_Carlos_Ribera\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T23:44:48.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DAM_M07_T02_ACT01_Carlos_Ribera\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\Visual Studio\\DAM_M07_T02_ACT01_Carlos_Ribera\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:44:46.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
