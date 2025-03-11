@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\ControlNotificaciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE4014D-38A7-4CB9-9A1C-3619244FCB26}|ControlNotificaciones.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t03_act01_carlos_ribera\\controlnotificaciones\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE4014D-38A7-4CB9-9A1C-3619244FCB26}|ControlNotificaciones.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE4014D-38A7-4CB9-9A1C-3619244FCB26}|ControlNotificaciones.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t03_act01_carlos_ribera\\controlnotificaciones\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EE4014D-38A7-4CB9-9A1C-3619244FCB26}|ControlNotificaciones.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 468,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\ControlNotificaciones\\UserControl1.cs",
+              "RelativeDocumentMoniker": "UserControl1.cs",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\ControlNotificaciones\\UserControl1.cs",
+              "RelativeToolTip": "UserControl1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:38:09.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\ControlNotificaciones\\UserControl1.cs",
+              "RelativeDocumentMoniker": "UserControl1.cs",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\ControlNotificaciones\\UserControl1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControl1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:31:49.932Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

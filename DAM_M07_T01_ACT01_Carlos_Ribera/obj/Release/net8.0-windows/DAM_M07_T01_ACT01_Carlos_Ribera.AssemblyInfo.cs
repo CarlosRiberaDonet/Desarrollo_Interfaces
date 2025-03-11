@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAM_M07_T01_ACT01_Carlos_Ribera")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4902f1f8cc0f6be73861472a402d3c07da386ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAM_M07_T01_ACT01_Carlos_Ribera")]

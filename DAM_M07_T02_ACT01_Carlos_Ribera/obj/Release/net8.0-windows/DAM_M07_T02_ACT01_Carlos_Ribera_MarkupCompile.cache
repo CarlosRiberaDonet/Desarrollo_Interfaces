@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T02_ACT01_Carlos_Ribera\obj\Debug\net8.0-windows\
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T02_ACT01_Carlos_Ribera\obj\Release\net8.0-windows\
 DAM_M07_T02_ACT01_Carlos_Ribera
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T02_ACT01_Carlos_Ribera\App.xaml
 11407045341
 
-429084195
+4505007393
 1981839832580
 MainWindow.xaml;
 
