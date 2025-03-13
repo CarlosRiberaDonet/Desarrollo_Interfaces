@@ -43,6 +43,7 @@
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Añadir";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonDel
             // 
@@ -52,12 +53,15 @@
             this.buttonDel.TabIndex = 1;
             this.buttonDel.Text = "Eliminar";
             this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(329, 120);
+            this.pictureBox.Image = global::WindowsForms.Properties.Resources.correo;
+            this.pictureBox.Location = new System.Drawing.Point(345, 142);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 2;
             this.pictureBox.TabStop = false;
             // 

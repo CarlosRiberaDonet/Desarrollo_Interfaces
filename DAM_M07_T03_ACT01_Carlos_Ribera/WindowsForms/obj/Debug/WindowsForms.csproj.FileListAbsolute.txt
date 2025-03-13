@@ -6,3 +6,4 @@ Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.dll
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.pdb
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.UserControl1.resources
