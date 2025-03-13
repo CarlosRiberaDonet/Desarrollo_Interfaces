@@ -1,0 +1,8 @@
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\bin\Debug\WindowsForms.dll
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\bin\Debug\WindowsForms.pdb
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.csproj.AssemblyReference.cache
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.dll
+Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T03_ACT01_Carlos_Ribera\WindowsForms\obj\Debug\WindowsForms.pdb
