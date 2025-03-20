@@ -36,6 +36,7 @@
             this.columnaPrecio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnaMarca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnCategoria = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.catalogoTableAdapter = new FormsApp1.DataSet1TableAdapters.catalogoTableAdapter();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
@@ -54,9 +55,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmbPrecio = new System.Windows.Forms.ComboBox();
             this.buttonFiltrar = new System.Windows.Forms.Button();
-            this.delCarrito = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.addCarrito = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonDel = new System.Windows.Forms.Button();
+            this.buttonCarrito = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriasBindingSource)).BeginInit();
@@ -80,37 +81,46 @@
             this.columnaPrecio,
             this.columnaMarca,
             this.columnCategoria,
-            this.delCarrito,
-            this.addCarrito,
             this.cantidad});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 75);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(631, 310);
+            this.listView1.Size = new System.Drawing.Size(776, 300);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MouseClick);
             // 
             // coumndaId
             // 
             this.coumndaId.Text = "id";
+            this.coumndaId.Width = 50;
             // 
             // ComlumnaComponente
             // 
             this.ComlumnaComponente.Text = "Componente";
+            this.ComlumnaComponente.Width = 300;
             // 
             // columnaPrecio
             // 
             this.columnaPrecio.Text = "Precio";
+            this.columnaPrecio.Width = 50;
             // 
             // columnaMarca
             // 
             this.columnaMarca.Text = "Marca";
+            this.columnaMarca.Width = 80;
             // 
             // columnCategoria
             // 
             this.columnCategoria.Text = "Categoria";
+            this.columnCategoria.Width = 80;
+            // 
+            // cantidad
+            // 
+            this.cantidad.Text = "Cantidad Carrito";
+            this.cantidad.Width = 94;
             // 
             // bindingSource1
             // 
@@ -221,7 +231,7 @@
             "50 - 100",
             "100 - 200",
             "200 - 400",
-            "> 400"});
+            ">400"});
             this.cmbPrecio.Location = new System.Drawing.Point(461, 22);
             this.cmbPrecio.Name = "cmbPrecio";
             this.cmbPrecio.Size = new System.Drawing.Size(121, 21);
@@ -229,7 +239,7 @@
             // 
             // buttonFiltrar
             // 
-            this.buttonFiltrar.Location = new System.Drawing.Point(614, 22);
+            this.buttonFiltrar.Location = new System.Drawing.Point(605, 22);
             this.buttonFiltrar.Name = "buttonFiltrar";
             this.buttonFiltrar.Size = new System.Drawing.Size(75, 23);
             this.buttonFiltrar.TabIndex = 7;
@@ -237,24 +247,43 @@
             this.buttonFiltrar.UseVisualStyleBackColor = true;
             this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
             // 
-            // delCarrito
+            // buttonAdd
             // 
-            this.delCarrito.Text = "Quitar";
-            this.delCarrito.Width = 50;
+            this.buttonAdd.Location = new System.Drawing.Point(461, 406);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.TabIndex = 8;
+            this.buttonAdd.Text = "Añadir";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
-            // addCarrito
+            // buttonDel
             // 
-            this.addCarrito.Text = "Añadir";
+            this.buttonDel.Location = new System.Drawing.Point(380, 406);
+            this.buttonDel.Name = "buttonDel";
+            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.TabIndex = 9;
+            this.buttonDel.Text = "Eliminar";
+            this.buttonDel.UseVisualStyleBackColor = true;
             // 
-            // cantidad
+            // buttonCarrito
             // 
-            this.cantidad.Text = "Cant.";
+            this.buttonCarrito.Location = new System.Drawing.Point(605, 406);
+            this.buttonCarrito.Name = "buttonCarrito";
+            this.buttonCarrito.Size = new System.Drawing.Size(183, 23);
+            this.buttonCarrito.TabIndex = 10;
+            this.buttonCarrito.Text = "Ir al Carrito";
+            this.buttonCarrito.UseVisualStyleBackColor = true;
+            this.buttonCarrito.Click += new System.EventHandler(this.buttonCarrito_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonCarrito);
+            this.Controls.Add(this.buttonDel);
+            this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonFiltrar);
             this.Controls.Add(this.cmbPrecio);
             this.Controls.Add(this.label3);
@@ -306,9 +335,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbPrecio;
         private System.Windows.Forms.Button buttonFiltrar;
-        private System.Windows.Forms.ColumnHeader delCarrito;
-        private System.Windows.Forms.ColumnHeader addCarrito;
         private System.Windows.Forms.ColumnHeader cantidad;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button buttonDel;
+        private System.Windows.Forms.Button buttonCarrito;
     }
 }
 
