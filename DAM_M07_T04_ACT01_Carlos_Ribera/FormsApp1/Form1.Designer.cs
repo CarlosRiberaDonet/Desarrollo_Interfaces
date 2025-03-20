@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataSet11 = new FormsApp1.DataSet1();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.listaPrincipal = new System.Windows.Forms.ListView();
             this.coumndaId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ComlumnaComponente = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnaPrecio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -55,7 +55,6 @@
             this.cmbPrecio = new System.Windows.Forms.ComboBox();
             this.buttonFiltrar = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
-            this.buttonDel = new System.Windows.Forms.Button();
             this.buttonCarrito = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -72,23 +71,22 @@
             this.dataSet11.DataSetName = "DataSet1";
             this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // listView1
+            // listaPrincipal
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listaPrincipal.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.coumndaId,
             this.ComlumnaComponente,
             this.columnaPrecio,
             this.columnaMarca,
             this.columnCategoria});
-            this.listView1.FullRowSelect = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 75);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(776, 300);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MouseClick);
+            this.listaPrincipal.FullRowSelect = true;
+            this.listaPrincipal.HideSelection = false;
+            this.listaPrincipal.Location = new System.Drawing.Point(12, 75);
+            this.listaPrincipal.Name = "listaPrincipal";
+            this.listaPrincipal.Size = new System.Drawing.Size(776, 300);
+            this.listaPrincipal.TabIndex = 0;
+            this.listaPrincipal.UseCompatibleStateImageBehavior = false;
+            this.listaPrincipal.View = System.Windows.Forms.View.Details;
             // 
             // coumndaId
             // 
@@ -250,15 +248,6 @@
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
-            // buttonDel
-            // 
-            this.buttonDel.Location = new System.Drawing.Point(380, 406);
-            this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
-            this.buttonDel.TabIndex = 9;
-            this.buttonDel.Text = "Eliminar";
-            this.buttonDel.UseVisualStyleBackColor = true;
-            // 
             // buttonCarrito
             // 
             this.buttonCarrito.Location = new System.Drawing.Point(605, 406);
@@ -275,7 +264,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonCarrito);
-            this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonFiltrar);
             this.Controls.Add(this.cmbPrecio);
@@ -284,7 +272,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbCategoria);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.listaPrincipal);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -304,7 +292,7 @@
         #endregion
 
         private DataSet1 dataSet11;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listaPrincipal;
         private System.Windows.Forms.ColumnHeader coumndaId;
         private System.Windows.Forms.ColumnHeader ComlumnaComponente;
         private System.Windows.Forms.ColumnHeader columnaPrecio;
@@ -329,7 +317,6 @@
         private System.Windows.Forms.ComboBox cmbPrecio;
         private System.Windows.Forms.Button buttonFiltrar;
         private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonCarrito;
     }
 }

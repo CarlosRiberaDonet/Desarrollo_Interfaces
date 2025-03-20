@@ -8,27 +8,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FormsApp1
 {
     public partial class Form1: Form
     {
         DataTable productos;
-        List<Producto> productosList = new List<Producto>();
+        public static List<Producto> productosList = new List<Producto>();
         public void cargarDatos()
         {
             productos = this.dataSet11.catalogo;
-            listView1.Items.Clear();
+            listaPrincipal.Items.Clear();
             foreach(DataRow producto in productos.Rows)
             {
-                ListViewItem item = listView1.Items.Add(producto["id"].ToString());
+                ListViewItem item = listaPrincipal.Items.Add(producto["id"].ToString());
                 item.SubItems.Add(producto["componente"].ToString());
                 item.SubItems.Add(producto["precio"].ToString());
                 item.SubItems.Add(producto["marca"].ToString());
                 item.SubItems.Add(producto["categoría"].ToString());
                 item.SubItems.Add("0"); // Cantidad por defecto
             }
-
         }
         public Form1()
         {
@@ -53,13 +53,13 @@ namespace FormsApp1
         private void buttonFiltrar_Click(object sender, EventArgs e)
         {
             productos = this.dataSet11.catalogo;
-            listView1.Items.Clear();
+            listaPrincipal.Items.Clear();
 
             foreach (DataRow producto in productos.Rows)
             {
                 if (!showCategoria(producto) || !showMarca(producto) || !showPrecio(producto)) continue;
                 {
-                    ListViewItem item = listView1.Items.Add(producto["id"].ToString());
+                    ListViewItem item = listaPrincipal.Items.Add(producto["id"].ToString());
                     item.SubItems.Add(producto["componente"].ToString());
                     item.SubItems.Add(producto["precio"].ToString());
                     item.SubItems.Add(producto["marca"].ToString());
@@ -107,35 +107,18 @@ namespace FormsApp1
             return true;
         }
 
-        private void listView1_MouseClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void buttonCarrito_Click(object sender, EventArgs e)
-        {
-            if(productosList == null || productosList.Count == 0)
-            {
-                MessageBox.Show("La lista esta vacía");
-                return;
-            }
-            Form2 f2 = new Form2(productosList);
-            f2.ShowDialog();
-        }
-
+        // Botón para añadir producto al carrito
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            // Compruebo si hay algún producto seleccionado en la lista
-            if (listView1.SelectedItems.Count == 0)
+            // Obtengo el producto seleccionado en el ListView
+            if (listaPrincipal.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Selecciona un producto para añadir"); // Si no hay ningún producto seleccionado, muestro mensaje por dialog
-                return; 
+                MessageBox.Show("Seleccione un producto para añadir.");
+                return;
             }
 
-
-
             // Obtengo el producto seleccionado
-            ListViewItem item = listView1.SelectedItems[0];
+            ListViewItem item = listaPrincipal.SelectedItems[0];
 
             // Creo un objeto de tipo Producto que tendrá los valores recodigos en item
             Producto producto = new Producto(
@@ -146,31 +129,15 @@ namespace FormsApp1
                 item.SubItems[4].Text, // Categoria
                 1                     // Cantidad inicial
                 );
-
-            // Compruebo si ya habia un producto con el mismo id en la lista
-            if (!checkCarrito(productosList, producto))
-            {
-                // Agrego el producto a la lista 
-                productosList.Add(producto);
-                return;
-            }
-
-            // Muestro un mensaje si el producto se ha añadido correctamente al carrito
-            MessageBox.Show("Producto añadido correctamente");
+      
+            ProductoController.addProducto(productosList, producto); // Llamo a addProducto de la clase ProductoController
+            MessageBox.Show("Producto añadido al carrito");
         }
 
-        private Boolean checkCarrito(List<Producto> productosList, Producto nuevoProducto)
+        private void buttonCarrito_Click(object sender, EventArgs e)
         {
-            foreach(Producto p in productosList)
-            {
-                if (p.id == nuevoProducto.id)
-                {
-                    p.cantidad++;
-                    return true;
-                }
-            }
-
-            return false;
+            Form2 f2 = new Form2(productosList);
+            f2.ShowDialog();
         }
     }
 }

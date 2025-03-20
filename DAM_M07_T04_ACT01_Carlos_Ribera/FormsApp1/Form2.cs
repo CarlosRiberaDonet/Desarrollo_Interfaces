@@ -20,13 +20,13 @@ namespace FormsApp1
             InitializeComponent();
             productosList = productos;
             MostrarProductos();
-            
+
         }
 
         // Método para mostrar los productos
         private void MostrarProductos()
         {
-
+            listaCarrito.Items.Clear();
             foreach (Producto producto in productosList)
             {
 
@@ -39,11 +39,60 @@ namespace FormsApp1
                 item.SubItems.Add(producto.cantidad.ToString());
 
                 // Añado el producto creado al listView
-                listViewCarrito.Items.Add(item);
+                listaCarrito.Items.Add(item);
 
-                importeTotal = importeTotal + (producto.precio * producto.cantidad);
+                importeTotal = (producto.precio * producto.cantidad);
                 textBoxImporte.Text = importeTotal.ToString("0.00");
             }
         }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            // Obtengo el producto seleccionado en el ListView
+            if (listaCarrito.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Seleccione un producto para añadir.");
+                return;
+            }
+
+            // Obtengo el producto seleccionado
+            ListViewItem item = listaCarrito.SelectedItems[0];
+
+            // Creo un objeto de tipo Producto que tendrá los valores recodigos en item
+            Producto producto = new Producto(
+                item.SubItems[0].Text, // Id del producto
+                item.SubItems[1].Text, // Nombre del componente
+                decimal.Parse(item.SubItems[2].Text), // Precio
+                item.SubItems[3].Text, // Marca
+                item.SubItems[4].Text, // Categoria
+                int.Parse(item.SubItems[5].Text ) // Cantidad
+                );
+
+            ProductoController.addProducto(productosList, producto); // Llamo a addProducto de la clase ProductoController
+            MostrarProductos();
+            //ActualizarCarrito(producto.id, producto.cantidad);
+            MessageBox.Show("Producto añadido al carrito");
+        }
+
+        // Botón para eliminar producto del carrito
+        private void buttonDel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // Método para actualizar la columna cantidad en tiempo real
+       /* private void ActualizarCarrito(String id, int cantidad)
+        {
+            foreach (ListViewItem item in listaCarrito.Items)
+            {
+                // Si el ID del producto coincide, actualiza la cantidad
+                if (item.SubItems[0].Text == id)
+                {
+                    int nuevaCantidad = int.Parse(item.SubItems[5].Text) + 1;
+                    item.SubItems[5].Text = nuevaCantidad.ToString();
+                    break;
+                }
+            }
+        }*/
     }
 }

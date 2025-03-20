@@ -26,5 +26,10 @@ namespace FormsApp1
             this.categoria = categoria;
             this.cantidad = cantidad;
         }
+
+        public Producto(String id)
+        {
+            this.id=id;
+        }
     }
 }
