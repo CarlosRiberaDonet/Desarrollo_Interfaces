@@ -36,7 +36,6 @@
             this.columnaPrecio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnaMarca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnCategoria = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.catalogoTableAdapter = new FormsApp1.DataSet1TableAdapters.catalogoTableAdapter();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
@@ -80,8 +79,7 @@
             this.ComlumnaComponente,
             this.columnaPrecio,
             this.columnaMarca,
-            this.columnCategoria,
-            this.cantidad});
+            this.columnCategoria});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 75);
@@ -116,11 +114,6 @@
             // 
             this.columnCategoria.Text = "Categoria";
             this.columnCategoria.Width = 80;
-            // 
-            // cantidad
-            // 
-            this.cantidad.Text = "Cantidad Carrito";
-            this.cantidad.Width = 94;
             // 
             // bindingSource1
             // 
@@ -335,7 +328,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbPrecio;
         private System.Windows.Forms.Button buttonFiltrar;
-        private System.Windows.Forms.ColumnHeader cantidad;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonCarrito;

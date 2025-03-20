@@ -14,8 +14,7 @@ namespace FormsApp1
     public partial class Form1: Form
     {
         DataTable productos;
-        List<Producto> productosList = new List<Producto>(); // Creo una lista para guardar los productos añadidos al carrito
-
+        List<Producto> productosList = new List<Producto>();
         public void cargarDatos()
         {
             productos = this.dataSet11.catalogo;
@@ -65,10 +64,6 @@ namespace FormsApp1
                     item.SubItems.Add(producto["precio"].ToString());
                     item.SubItems.Add(producto["marca"].ToString());
                     item.SubItems.Add(producto["categoría"].ToString());
-                    item.SubItems.Add("-");
-                    item.SubItems.Add("+");
-                    item.SubItems.Add("0"); // Cantidad por defecto
-
                 }
 
             }
@@ -119,6 +114,11 @@ namespace FormsApp1
 
         private void buttonCarrito_Click(object sender, EventArgs e)
         {
+            if(productosList == null || productosList.Count == 0)
+            {
+                MessageBox.Show("La lista esta vacía");
+                return;
+            }
             Form2 f2 = new Form2(productosList);
             f2.ShowDialog();
         }
@@ -131,6 +131,9 @@ namespace FormsApp1
                 MessageBox.Show("Selecciona un producto para añadir"); // Si no hay ningún producto seleccionado, muestro mensaje por dialog
                 return; 
             }
+
+
+
             // Obtengo el producto seleccionado
             ListViewItem item = listView1.SelectedItems[0];
 
@@ -144,11 +147,30 @@ namespace FormsApp1
                 1                     // Cantidad inicial
                 );
 
-            // Agrego el producto a la lista 
-            productosList.Add(producto);
+            // Compruebo si ya habia un producto con el mismo id en la lista
+            if (!checkCarrito(productosList, producto))
+            {
+                // Agrego el producto a la lista 
+                productosList.Add(producto);
+                return;
+            }
 
             // Muestro un mensaje si el producto se ha añadido correctamente al carrito
             MessageBox.Show("Producto añadido correctamente");
+        }
+
+        private Boolean checkCarrito(List<Producto> productosList, Producto nuevoProducto)
+        {
+            foreach(Producto p in productosList)
+            {
+                if (p.id == nuevoProducto.id)
+                {
+                    p.cantidad++;
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

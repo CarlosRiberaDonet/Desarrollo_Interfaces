@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|c:\\users\\carlos\\desktop\\desarollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|c:\\users\\carlos\\desktop\\desarollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -25,12 +29,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 78,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 468,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -39,12 +47,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAnwGsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:09:46.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAwJMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA0wJ4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T13:24:06.05Z",
               "EditorCaption": ""
@@ -53,37 +74,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form2.cs",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
+              "ToolTip": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T00:57:18.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T00:56:52.579Z",
+              "WhenOpened": "2025-03-19T13:13:06.198Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Carlos\\Desktop\\Desarollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T13:13:06.198Z",
+              "WhenOpened": "2025-03-20T00:56:52.579Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

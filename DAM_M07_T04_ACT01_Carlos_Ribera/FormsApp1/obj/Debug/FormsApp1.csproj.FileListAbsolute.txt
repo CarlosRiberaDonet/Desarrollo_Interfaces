@@ -9,3 +9,14 @@ Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\De
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.exe
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.pdb
 Z:\GitHub\Desarrollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.Form2.resources
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\bin\Debug\FormsApp1.exe.config
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\bin\Debug\FormsApp1.exe
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.Form1.resources
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.Form2.resources
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.csproj.GenerateResource.cache
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.exe
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\obj\Debug\FormsApp1.pdb
+C:\Users\Carlos\Desktop\Desarollo_Interfaces\DAM_M07_T04_ACT01_Carlos_Ribera\FormsApp1\bin\Debug\FormsApp1.pdb
