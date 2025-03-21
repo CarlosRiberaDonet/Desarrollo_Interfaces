@@ -27,7 +27,6 @@ namespace FormsApp1
                 item.SubItems.Add(producto["precio"].ToString());
                 item.SubItems.Add(producto["marca"].ToString());
                 item.SubItems.Add(producto["categoría"].ToString());
-                item.SubItems.Add("0"); // Cantidad por defecto
             }
         }
         public Form1()
@@ -91,7 +90,6 @@ namespace FormsApp1
             return false;
 
         }
-
         
         // Método para filtrar por categoria
         private Boolean showCategoria(DataRow producto)

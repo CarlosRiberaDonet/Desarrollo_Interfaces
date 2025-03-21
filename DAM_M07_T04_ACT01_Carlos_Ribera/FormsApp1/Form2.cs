@@ -15,12 +15,12 @@ namespace FormsApp1
     {
         private List<Producto> productosList = new List<Producto>();
         private decimal importeTotal = 0;
+
         public Form2(List<Producto> productos)
         {
             InitializeComponent();
             productosList = productos;
-            MostrarProductos();
-
+            MostrarProductos(); 
         }
 
         // Método para mostrar los productos
@@ -40,10 +40,24 @@ namespace FormsApp1
 
                 // Añado el producto creado al listView
                 listaCarrito.Items.Add(item);
-
-                importeTotal = (producto.precio * producto.cantidad);
+                // Calculo el valor del importe total
+                importeTotal = CalularImporte(productosList);
                 textBoxImporte.Text = importeTotal.ToString("0.00");
             }
+        }
+
+        
+        
+
+        // Método para calcular el importe total de los productos del carrito
+        public decimal CalularImporte(List<Producto> productosList)
+        {
+            decimal importeTotal = 0;
+            foreach (Producto p in productosList)
+            {
+                importeTotal += (p.cantidad * p.precio);
+            }   
+            return importeTotal;
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -68,31 +82,63 @@ namespace FormsApp1
                 int.Parse(item.SubItems[5].Text ) // Cantidad
                 );
 
-            ProductoController.addProducto(productosList, producto); // Llamo a addProducto de la clase ProductoController
+            // Llamo a addProducto de la clase ProductoController
+            ProductoController.addProducto(productosList, producto);
+
+            importeTotal = CalularImporte(productosList);
+            // LLamo a MostrarProductos para actualizar la lista
             MostrarProductos();
-            //ActualizarCarrito(producto.id, producto.cantidad);
             MessageBox.Show("Producto añadido al carrito");
         }
 
-        // Botón para eliminar producto del carrito
         private void buttonDel_Click(object sender, EventArgs e)
         {
+            // Obtengo el producto seleccionado en el ListView
+            if (listaCarrito.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Seleccione un producto para eliminar de la lista");
+                return;
+            }
 
+            // Obtengo el producto seleccionado
+            ListViewItem item = listaCarrito.SelectedItems[0];
+
+            // Creo un objeto de tipo Producto que tendrá los valores recodigos en item
+            Producto producto = new Producto(
+                item.SubItems[0].Text, // Id del producto
+                item.SubItems[1].Text, // Nombre del componente
+                decimal.Parse(item.SubItems[2].Text), // Precio
+                item.SubItems[3].Text, // Marca
+                item.SubItems[4].Text, // Categoria
+                int.Parse(item.SubItems[5].Text) // Cantidad
+                );
+
+            // Llamo a addProducto de la clase ProductoController
+            ProductoController.delProducto(productosList, producto);
+            importeTotal = CalularImporte(productosList);
+            // LLamo a MostrarProductos para actualizar la lista
+            MostrarProductos();
+            
+            MessageBox.Show("Producto eliminado al carrito");
         }
 
+        // Botón para eliminar producto del carrito
+
+
+
         // Método para actualizar la columna cantidad en tiempo real
-       /* private void ActualizarCarrito(String id, int cantidad)
-        {
-            foreach (ListViewItem item in listaCarrito.Items)
-            {
-                // Si el ID del producto coincide, actualiza la cantidad
-                if (item.SubItems[0].Text == id)
-                {
-                    int nuevaCantidad = int.Parse(item.SubItems[5].Text) + 1;
-                    item.SubItems[5].Text = nuevaCantidad.ToString();
-                    break;
-                }
-            }
-        }*/
+        /* private void ActualizarCarrito(String id, int cantidad)
+         {
+             foreach (ListViewItem item in listaCarrito.Items)
+             {
+                 // Si el ID del producto coincide, actualiza la cantidad
+                 if (item.SubItems[0].Text == id)
+                 {
+                     int nuevaCantidad = int.Parse(item.SubItems[5].Text) + 1;
+                     item.SubItems[5].Text = nuevaCantidad.ToString();
+                     break;
+                 }
+             }
+         }*/
     }
 }

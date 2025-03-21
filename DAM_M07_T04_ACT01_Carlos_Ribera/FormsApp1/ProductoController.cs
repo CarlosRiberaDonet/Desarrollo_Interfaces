@@ -29,15 +29,24 @@ namespace FormsApp1
 
 
         // Método para comprobar si el producto ya esta en productosList
-        public List<Producto> delProducto(List<Producto> productosList, Producto producto)
+        public static List<Producto> delProducto(List<Producto> productosList, Producto producto)
         {
             // Itero sobre productosList
             foreach (Producto p in productosList)
             {
                 if (p.id == producto.id) // Si el id ya está en productosList
                 {
-                    p.cantidad--;
-                    return productosList;// Retorno el producto
+                    if (p.cantidad == 1)
+                    {
+                        productosList.Remove(p);
+                        return productosList;// Retorno la lista modificada
+                    }
+                    else
+                    {
+                        p.cantidad--;
+                        return productosList;// Retorno la lista modificada
+                    }
+                    
                 }
             }
             return null;

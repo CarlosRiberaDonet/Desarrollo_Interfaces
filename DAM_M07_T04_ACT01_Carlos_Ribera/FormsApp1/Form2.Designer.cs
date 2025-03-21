@@ -129,6 +129,7 @@
             this.buttonDel.TabIndex = 5;
             this.buttonDel.Text = "Eliminar";
             this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonBuy
             // 
