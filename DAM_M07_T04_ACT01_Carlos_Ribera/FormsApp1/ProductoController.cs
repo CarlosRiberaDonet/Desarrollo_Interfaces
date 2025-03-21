@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -28,7 +30,6 @@ namespace FormsApp1
             return productosList; // Devuelvo la lista actualizada con la cantidad modificada
         }
 
-
         // Método para eliminar productos
         public static List<Producto> delProducto(List<Producto> productosList, Producto producto)
         {
@@ -52,6 +53,34 @@ namespace FormsApp1
                 }
             }
             return null; // Si no se encuentra el producto, retorno null
+        }
+
+        // Método para guardar los productos del carrito
+        public void GuardarProductos(List<Producto> productosList)
+        {
+            // Ruta por defecto en la carpeta del proyecto
+            string rutaCarpeta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "exports");
+            string filePath = Path.Combine(rutaCarpeta, "carrito.csv");
+
+            try{
+                // Compruebo si el directorio existe
+                if (!Directory.Exists(rutaCarpeta))
+                {
+                    Directory.CreateDirectory(rutaCarpeta);
+                }
+
+                // Creo el archivo y escribo dentro
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    foreach(Producto p in productosList)
+                    {
+
+                    }
+                }
+            }catch(Exception e){
+                MessageBox.Show("Error al guardar el carrito: " + e.Message);
+            }
+
         }
     }
 }

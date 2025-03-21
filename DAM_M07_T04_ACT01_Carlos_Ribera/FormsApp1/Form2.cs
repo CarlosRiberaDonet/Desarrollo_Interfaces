@@ -135,23 +135,9 @@ namespace FormsApp1
             MessageBox.Show("Producto eliminado al carrito");
         }
 
-        // Botón para eliminar producto del carrito
-
-
-
-        // Método para actualizar la columna cantidad en tiempo real
-        /* private void ActualizarCarrito(String id, int cantidad)
-         {
-             foreach (ListViewItem item in listaCarrito.Items)
-             {
-                 // Si el ID del producto coincide, actualiza la cantidad
-                 if (item.SubItems[0].Text == id)
-                 {
-                     int nuevaCantidad = int.Parse(item.SubItems[5].Text) + 1;
-                     item.SubItems[5].Text = nuevaCantidad.ToString();
-                     break;
-                 }
-             }
-         }*/
+        private void buttonBuy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Redirigiendo a la pasarela de pago");
+        }
     }
 }
