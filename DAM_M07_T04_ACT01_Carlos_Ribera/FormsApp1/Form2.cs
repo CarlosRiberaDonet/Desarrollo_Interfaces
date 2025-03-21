@@ -13,20 +13,28 @@ namespace FormsApp1
 {
     public partial class Form2 : Form
     {
+        // Lista de productos añadidos al carrito
         private List<Producto> productosList = new List<Producto>();
-        private decimal importeTotal = 0;
 
+        // Variable para almacenar el importe total del carrito
+        private decimal importeTotal;
+
+        // Constructor de Form2 que recibe la lista de productos del carrito
         public Form2(List<Producto> productos)
-        {
+        {   
             InitializeComponent();
             productosList = productos;
-            MostrarProductos(); 
+            MostrarProductos(); // Muestra los productos al cargar el formulario
         }
 
         // Método para mostrar los productos
         private void MostrarProductos()
         {
+            
             listaCarrito.Items.Clear();
+            // Inicializo el importe total en 0
+            importeTotal = 0;
+
             foreach (Producto producto in productosList)
             {
 
@@ -39,18 +47,25 @@ namespace FormsApp1
                 item.SubItems.Add(producto.cantidad.ToString());
 
                 // Añado el producto creado al listView
-                listaCarrito.Items.Add(item);
+                listaCarrito.Items.Add(item);  
+            }
+            // Creo esta condición porque no sabía como soluciona un error. Cuando eliminaba el último producto del carrito,
+            // se quedaba guardado el último importe en el textBoxImporte
+            if (productosList.Count == 0)
+            {
+                importeTotal = 0;
+                textBoxImporte.Text = "0.00";
+            }
+            else
+            {
                 // Calculo el valor del importe total
-                importeTotal = CalularImporte(productosList);
+                importeTotal = CalcularImporte(productosList);
                 textBoxImporte.Text = importeTotal.ToString("0.00");
             }
         }
 
-        
-        
-
         // Método para calcular el importe total de los productos del carrito
-        public decimal CalularImporte(List<Producto> productosList)
+        public decimal CalcularImporte(List<Producto> productosList)
         {
             decimal importeTotal = 0;
             foreach (Producto p in productosList)
@@ -85,7 +100,6 @@ namespace FormsApp1
             // Llamo a addProducto de la clase ProductoController
             ProductoController.addProducto(productosList, producto);
 
-            importeTotal = CalularImporte(productosList);
             // LLamo a MostrarProductos para actualizar la lista
             MostrarProductos();
             MessageBox.Show("Producto añadido al carrito");
@@ -115,7 +129,6 @@ namespace FormsApp1
 
             // Llamo a addProducto de la clase ProductoController
             ProductoController.delProducto(productosList, producto);
-            importeTotal = CalularImporte(productosList);
             // LLamo a MostrarProductos para actualizar la lista
             MostrarProductos();
             

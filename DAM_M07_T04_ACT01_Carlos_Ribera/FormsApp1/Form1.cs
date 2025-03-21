@@ -14,12 +14,17 @@ namespace FormsApp1
 {
     public partial class Form1: Form
     {
+        // Lista global y estática para almacenar los productos añadidos al carrito
         DataTable productos;
         public static List<Producto> productosList = new List<Producto>();
+
+        // Método para cargar los datos desde el DataSet y mostrarlos en el ListView
         public void cargarDatos()
         {
             productos = this.dataSet11.catalogo;
             listaPrincipal.Items.Clear();
+
+            // Itero sobre la lista de productos y agrego cada fila al ListVew
             foreach(DataRow producto in productos.Rows)
             {
                 ListViewItem item = listaPrincipal.Items.Add(producto["id"].ToString());
@@ -48,16 +53,19 @@ namespace FormsApp1
 
         }
 
-        // Método para aplicar los filtros seleccionados
+        // Botón para aplicar los filtros seleccionados
         private void buttonFiltrar_Click(object sender, EventArgs e)
         {
             productos = this.dataSet11.catalogo;
             listaPrincipal.Items.Clear();
 
+            // Itero sobre la lista de productos para aplicar los filtros seleccionados
             foreach (DataRow producto in productos.Rows)
             {
+                // Compruebo si el producto cumple con los filtros seleccionados
                 if (!showCategoria(producto) || !showMarca(producto) || !showPrecio(producto)) continue;
                 {
+                    // Si pasa el filtro lo agrego a ListView
                     ListViewItem item = listaPrincipal.Items.Add(producto["id"].ToString());
                     item.SubItems.Add(producto["componente"].ToString());
                     item.SubItems.Add(producto["precio"].ToString());
@@ -68,7 +76,7 @@ namespace FormsApp1
             }
         }
 
-        // Método para filtrar por precio
+        // Método para filtrar según el precio seleccionado en "cmbPrecio"
         private Boolean showPrecio(DataRow producto)
         {
             if (cmbPrecio.SelectedItem == null)
@@ -79,7 +87,6 @@ namespace FormsApp1
             string rangoPrecios = cmbPrecio.Text.Trim(); // Eliminar espacios extra
 
             // Verificar el rango de precios seleccionado
-
             if (rangoPrecios == "Todos") return true;
             if (rangoPrecios == "0 - 50" && precioProducto >= 0 && precioProducto <= 50) return true;
             if (rangoPrecios == "50 - 100" && precioProducto > 50 && precioProducto <= 100) return true;
@@ -88,7 +95,6 @@ namespace FormsApp1
             if (rangoPrecios == ">400" && precioProducto > 400) return true;
 
             return false;
-
         }
         
         // Método para filtrar por categoria
@@ -105,10 +111,10 @@ namespace FormsApp1
             return true;
         }
 
-        // Botón para añadir producto al carrito
+        // Botón para añadir producto seleccionado al carrito
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            // Obtengo el producto seleccionado en el ListView
+            // Compruebo si hay algun producto seleccionado en ListView
             if (listaPrincipal.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Seleccione un producto para añadir.");
@@ -118,7 +124,7 @@ namespace FormsApp1
             // Obtengo el producto seleccionado
             ListViewItem item = listaPrincipal.SelectedItems[0];
 
-            // Creo un objeto de tipo Producto que tendrá los valores recodigos en item
+            // Creo un objeto de tipo Producto con los datos obtenidos
             Producto producto = new Producto(
                 item.SubItems[0].Text, // Id del producto
                 item.SubItems[1].Text, // Nombre del componente
@@ -128,10 +134,12 @@ namespace FormsApp1
                 1                     // Cantidad inicial
                 );
       
-            ProductoController.addProducto(productosList, producto); // Llamo a addProducto de la clase ProductoController
+            // Añado el producto a la lista mediante el controlador
+            ProductoController.addProducto(productosList, producto); 
             MessageBox.Show("Producto añadido al carrito");
         }
 
+        // Botón para abrir el formulario del carrito
         private void buttonCarrito_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2(productosList);

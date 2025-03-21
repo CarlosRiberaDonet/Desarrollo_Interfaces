@@ -10,7 +10,7 @@ namespace FormsApp1
     class ProductoController
     {
         
-        // Método para añadir productos en productosList (carrito)
+        // Método para añadir productos
         public static List<Producto> addProducto(List<Producto> productosList, Producto producto)
         {
 
@@ -19,16 +19,17 @@ namespace FormsApp1
             {
                 if (p.id == producto.id)
                 {
-                    p.cantidad++;
+                    p.cantidad++; // Incremento la cantidad
                     return productosList; // Devuelvo la lista actualizada con la nueva cantidad
                 }
             }
+            // Si el producto no está en la lista, lo añado
             productosList.Add(producto);
-            return productosList; // Devuelvo la lista actualizada con el nuevo producto
+            return productosList; // Devuelvo la lista actualizada con la cantidad modificada
         }
 
 
-        // Método para comprobar si el producto ya esta en productosList
+        // Método para eliminar productos
         public static List<Producto> delProducto(List<Producto> productosList, Producto producto)
         {
             // Itero sobre productosList
@@ -36,6 +37,7 @@ namespace FormsApp1
             {
                 if (p.id == producto.id) // Si el id ya está en productosList
                 {
+                    // Si la cantidad es 1, lo elimino
                     if (p.cantidad == 1)
                     {
                         productosList.Remove(p);
@@ -43,13 +45,13 @@ namespace FormsApp1
                     }
                     else
                     {
+                        // Si cantidad es mayor que 1, le resto 1
                         p.cantidad--;
                         return productosList;// Retorno la lista modificada
-                    }
-                    
+                    }    
                 }
             }
-            return null;
+            return null; // Si no se encuentra el producto, retorno null
         }
     }
 }
