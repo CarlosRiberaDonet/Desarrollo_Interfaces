@@ -145,5 +145,11 @@ namespace FormsApp1
             Form2 f2 = new Form2(productosList);
             f2.ShowDialog();
         }
+
+        private void buttonLoad_Click(object sender, EventArgs e)
+        {
+            productosList = ProductoController.CargarProductos(productosList);
+            MessageBox.Show("Carrito cargado correctamente");
+        }
     }
 }

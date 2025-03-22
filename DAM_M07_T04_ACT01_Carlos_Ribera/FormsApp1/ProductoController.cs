@@ -6,12 +6,17 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Text.Json;
 
 namespace FormsApp1
 {
     class ProductoController
     {
-        
+        // Ruta por defecto en la carpeta del proyecto
+        private static string rutaCarpeta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "exports");
+        private static string filePath = Path.Combine(rutaCarpeta, "carrito.json");
+
         // Método para añadir productos
         public static List<Producto> addProducto(List<Producto> productosList, Producto producto)
         {
@@ -55,32 +60,54 @@ namespace FormsApp1
             return null; // Si no se encuentra el producto, retorno null
         }
 
-        // Método para guardar los productos del carrito
-        public void GuardarProductos(List<Producto> productosList)
+        // Método para guardar List en JSON
+        public static void GuardarProductos(List<Producto> productosList)
         {
-            // Ruta por defecto en la carpeta del proyecto
-            string rutaCarpeta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "exports");
-            string filePath = Path.Combine(rutaCarpeta, "carrito.csv");
-
+            
             try{
                 // Compruebo si el directorio existe
                 if (!Directory.Exists(rutaCarpeta))
                 {
-                    Directory.CreateDirectory(rutaCarpeta);
+                    Directory.CreateDirectory(rutaCarpeta); // Si no existe, lo creo
                 }
 
-                // Creo el archivo y escribo dentro
-                using (StreamWriter writer = new StreamWriter(filePath))
-                {
-                    foreach(Producto p in productosList)
-                    {
+                // Serializo la lista de productos en formato JSON
+                string json = JsonSerializer.Serialize(productosList);
 
-                    }
-                }
-            }catch(Exception e){
+                // Escribo el archivo JSON
+                File.WriteAllText(filePath, json);
+
+                // Confirmo que el archivo se ha guardado correctamente en la ruta
+                MessageBox.Show("Carrito guardado correctamente" + filePath);
+            }
+            catch(Exception e){
                 MessageBox.Show("Error al guardar el carrito: " + e.Message);
             }
+        }
 
+        // Método para cargar productos desde JSON a List
+        public static List<Producto> CargarProductos(List<Producto> productosList)
+        {
+            Form1 form = new Form1();
+
+            // Compruebo si el directorio existe
+            if (!Directory.Exists(rutaCarpeta))
+            {
+                Directory.CreateDirectory(rutaCarpeta);
+            }
+            // Compruebo si el archivo existe
+            if (!File.Exists(filePath))
+            {
+                MessageBox.Show("No hay ninguna lista de productos guardada");
+                return new List<Producto>(); // Retorno una lista vacía para evitar errores de nullPointException (en Java me pasaba amenudo)
+            }
+            // Leer el contenido del archivo JSON
+            String json = File.ReadAllText(filePath);
+
+            
+            // Deserializar el contenido del JSON en una List
+            return productosList = JsonSerializer.Deserialize<List<Producto>>(json);
+            
         }
     }
 }

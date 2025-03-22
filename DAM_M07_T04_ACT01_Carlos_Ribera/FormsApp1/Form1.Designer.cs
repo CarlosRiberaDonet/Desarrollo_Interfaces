@@ -56,6 +56,7 @@
             this.buttonFiltrar = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonCarrito = new System.Windows.Forms.Button();
+            this.buttonLoad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriasBindingSource)).BeginInit();
@@ -240,7 +241,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(461, 406);
+            this.buttonAdd.Location = new System.Drawing.Point(397, 406);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 23);
             this.buttonAdd.TabIndex = 8;
@@ -258,11 +259,22 @@
             this.buttonCarrito.UseVisualStyleBackColor = true;
             this.buttonCarrito.Click += new System.EventHandler(this.buttonCarrito_Click);
             // 
+            // buttonLoad
+            // 
+            this.buttonLoad.Location = new System.Drawing.Point(478, 406);
+            this.buttonLoad.Name = "buttonLoad";
+            this.buttonLoad.Size = new System.Drawing.Size(121, 23);
+            this.buttonLoad.TabIndex = 11;
+            this.buttonLoad.Text = "Cargar carrito";
+            this.buttonLoad.UseVisualStyleBackColor = true;
+            this.buttonLoad.Click += new System.EventHandler(this.buttonLoad_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonLoad);
             this.Controls.Add(this.buttonCarrito);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonFiltrar);
@@ -318,6 +330,7 @@
         private System.Windows.Forms.Button buttonFiltrar;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonCarrito;
+        private System.Windows.Forms.Button buttonLoad;
     }
 }
 

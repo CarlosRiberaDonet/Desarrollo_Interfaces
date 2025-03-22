@@ -138,6 +138,7 @@ namespace FormsApp1
         private void buttonBuy_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Redirigiendo a la pasarela de pago");
+            ProductoController.GuardarProductos(productosList);
         }
     }
 }

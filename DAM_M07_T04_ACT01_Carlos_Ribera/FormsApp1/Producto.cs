@@ -27,9 +27,10 @@ namespace FormsApp1
             this.cantidad = cantidad;
         }
 
-        public Producto(String id)
+        // Constructor vacío, lo utilizo para la deserialización
+        public Producto()
         {
-            this.id=id;
+            
         }
     }
 }
