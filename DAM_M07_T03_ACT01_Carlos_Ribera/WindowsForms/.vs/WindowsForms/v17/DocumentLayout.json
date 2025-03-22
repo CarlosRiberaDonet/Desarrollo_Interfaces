@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsForms||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsForms||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t03_act01_carlos_ribera\\windowsforms\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -37,7 +37,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WindowsForms",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\WindowsForms.csproj",
               "RelativeDocumentMoniker": "WindowsForms.csproj",
@@ -55,14 +55,14 @@
               "RelativeDocumentMoniker": "UserControl1.cs",
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\UserControl1.cs",
               "RelativeToolTip": "UserControl1.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAewCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:30:26.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserControl1.cs [Dise\u00F1o]",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\UserControl1.cs",
               "RelativeDocumentMoniker": "UserControl1.cs",
