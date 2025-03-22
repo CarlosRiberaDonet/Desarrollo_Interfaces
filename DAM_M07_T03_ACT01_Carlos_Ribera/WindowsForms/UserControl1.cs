@@ -22,15 +22,33 @@ namespace WindowsForms
         public UserControl1()
         {
             InitializeComponent();
-            pictureBox.Paint += PictureBoxPaint; // En Java utilizaba listeners, aqui he investigado y he visto que se hace mediante +=
+            pictureBox.Paint += PictureBoxPaint;
         }
 
         // Método para pintar el circulo de notificaciones
         private void PictureBoxPaint(object sender, PaintEventArgs e)
-        {           
+        {
+            string texto = "";
+
             Graphics g = e.Graphics; // Obtengo el Objeto Graphics para pintar
             int diametro = (int)(Math.Min(pictureBox.Width, pictureBox.Height) * 0.30); // 30% del tamaño del PictureBox
-
+              
+            // Límito por debajo
+            if (numeroNotificaciones <= 0)
+            {
+                numeroNotificaciones = 0;
+            }
+            // Límito por arriba
+            else if (numeroNotificaciones > 99)
+            {
+                String maxNotificaciones = "+99";
+                texto = maxNotificaciones;
+            }
+            else
+            {
+                texto = numeroNotificaciones.ToString();
+            }
+            
             if (numeroNotificaciones > 0)
             {
                 // Posicionamos el círculo en la esquina superior izquierda de PictureBox
@@ -44,7 +62,7 @@ namespace WindowsForms
                 }
 
                 // Dibujar el número dentro del círculo
-                string texto = numeroNotificaciones.ToString();
+                
                 using (Font fuente = new Font(Font.FontFamily, diametro / 2, FontStyle.Bold))
                 using (Brush brushTexto = new SolidBrush(Color.White))
                 {
@@ -53,12 +71,7 @@ namespace WindowsForms
                     float textoY = posY + (diametro - tamañoTexto.Height) / 2;
                     g.DrawString(texto, fuente, brushTexto, textoX, textoY);
                 }
-            }
-            if (numeroNotificaciones <= 0)
-            {
-                numeroNotificaciones = 0;
-            }
-                
+            }     
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -72,6 +85,18 @@ namespace WindowsForms
         {
             numeroNotificaciones--;
             Debug.WriteLine($"Número de notificaciones: {numeroNotificaciones}"); // Mensaje de depuración
+            pictureBox.Invalidate();
+        }
+
+        private void añadirX_Click(object sender, EventArgs e)
+        {
+            numeroNotificaciones += int.Parse(textBox1.Text);
+            pictureBox.Invalidate();
+        }
+
+        private void eliminarX_Click(object sender, EventArgs e)
+        {
+           numeroNotificaciones -= int.Parse(textBox1.Text);
             pictureBox.Invalidate();
         }
     }
