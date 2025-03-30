@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Reporting.WinForms;
+using System;
 using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -150,6 +151,12 @@ namespace FormsApp1
         {
             productosList = ProductoController.CargarProductos(productosList);
             MessageBox.Show("Carrito cargado correctamente");
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
         }
     }
 }

@@ -12,10 +12,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t03_act01_carlos_ribera\\windowsforms\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{2075080C-CC9A-40BF-A668-ADBBD74E072A}|WindowsForms.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,8 +40,7 @@
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\WindowsForms.csproj",
               "RelativeToolTip": "WindowsForms.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-20T16:14:32.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T16:14:32.721Z"
             },
             {
               "$type": "Document",
@@ -55,7 +50,7 @@
               "RelativeDocumentMoniker": "UserControl1.cs",
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\UserControl1.cs",
               "RelativeToolTip": "UserControl1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:30:26.931Z",
               "EditorCaption": ""
@@ -69,8 +64,7 @@
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T03_ACT01_Carlos_Ribera\\WindowsForms\\UserControl1.cs [Dise\u00F1o]",
               "RelativeToolTip": "UserControl1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:43:57.965Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-13T00:43:57.965Z"
             }
           ]
         },
