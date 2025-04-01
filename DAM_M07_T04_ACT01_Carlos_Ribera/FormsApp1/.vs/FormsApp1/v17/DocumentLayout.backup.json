@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|z:\\github\\desarrollo_interfaces\\dam_m07_t04_act01_carlos_ribera\\formsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8977370-ED16-414F-81B3-3F6EC228F289}|FormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 468,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAI0AAAAAAAAAAAApwJ0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:32:13.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T17:32:13.049Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:31:35.698Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-30T17:31:35.698Z"
             },
             {
               "$type": "Document",
@@ -95,24 +93,22 @@
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:30:46.34Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-30T17:30:46.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Report1.rdlc [Dise\u00F1o]",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Report1.rdlc",
               "RelativeDocumentMoniker": "Report1.rdlc",
               "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Report1.rdlc [Dise\u00F1o]",
               "RelativeToolTip": "Report1.rdlc [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-03-30T16:44:51.031Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-30T16:44:51.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form3.cs [Dise\u00F1o]",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\DAM_M07_T04_ACT01_Carlos_Ribera\\FormsApp1\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
