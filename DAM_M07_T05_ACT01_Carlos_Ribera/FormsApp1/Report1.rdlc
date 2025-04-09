@@ -6,19 +6,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.8326cm</Width>
+              <Width>0.75547cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.9228cm</Width>
+              <Width>2.84567cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.23489cm</Width>
+              <Width>2.15776cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.42551cm</Width>
+              <Width>3.34838cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.54697cm</Width>
+              <Width>1.46984cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -379,7 +379,7 @@
           <TablixMembers>
             <TablixMember>
               <TablixHeader>
-                <Size>2.5cm</Size>
+                <Size>2.42287cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox25">
                     <CanGrow>true</CanGrow>
@@ -429,7 +429,7 @@
                 </SortExpression>
               </SortExpressions>
               <TablixHeader>
-                <Size>2.5cm</Size>
+                <Size>2.42287cm</Size>
                 <CellContents>
                   <Textbox Name="Categoria1">
                     <CanGrow>true</CanGrow>
@@ -476,9 +476,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Left>1.95792cm</Left>
+        <Top>1.05833cm</Top>
+        <Left>0.55563cm</Left>
         <Height>1.22646cm</Height>
-        <Width>13.46277cm</Width>
+        <Width>13cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -486,10 +487,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>29.7cm</Height>
+    <Height>20.7cm</Height>
     <Style />
   </Body>
-  <Width>21cm</Width>
+  <Width>15.42069cm</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
