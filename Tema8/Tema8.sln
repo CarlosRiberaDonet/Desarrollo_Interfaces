@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tema8", "Tema8.vdproj", "{60A54BA3-9581-6E47-0AC4-E9B6FE459C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A54BA3-9581-6E47-0AC4-E9B6FE459C00}.Debug|Default.ActiveCfg = Debug
+		{60A54BA3-9581-6E47-0AC4-E9B6FE459C00}.Debug|Default.Build.0 = Debug
+		{60A54BA3-9581-6E47-0AC4-E9B6FE459C00}.Release|Default.ActiveCfg = Release
+		{60A54BA3-9581-6E47-0AC4-E9B6FE459C00}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBFC58C7-CE4E-417C-9ECC-1C66179EE1FD}
+	EndGlobalSection
+EndGlobal
