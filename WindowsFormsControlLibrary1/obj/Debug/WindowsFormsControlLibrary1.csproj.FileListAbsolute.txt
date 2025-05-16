@@ -1,0 +1,8 @@
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.AssemblyReference.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.UserControl1.resources
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.GenerateResource.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.CoreCompileInputs.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb
