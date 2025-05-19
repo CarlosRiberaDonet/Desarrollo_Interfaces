@@ -1,0 +1,11 @@
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources

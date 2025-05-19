@@ -31,6 +31,10 @@
             this.fechaInicio = new System.Windows.Forms.DateTimePicker();
             this.fechaFin = new System.Windows.Forms.DateTimePicker();
             this.etiquetaInicio = new System.Windows.Forms.Label();
+            this.Abrir = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // fechaInicio
@@ -58,15 +62,41 @@
             this.etiquetaInicio.TabIndex = 2;
             this.etiquetaInicio.Text = "label1";
             // 
+            // Abrir
+            // 
+            this.Abrir.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.Abrir.Location = new System.Drawing.Point(445, 109);
+            this.Abrir.Name = "Abrir";
+            this.Abrir.Size = new System.Drawing.Size(75, 23);
+            this.Abrir.TabIndex = 3;
+            this.Abrir.Text = "abrirButton";
+            this.Abrir.UseVisualStyleBackColor = true;
+            this.Abrir.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(408, 287);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Abrir);
             this.Controls.Add(this.etiquetaInicio);
             this.Controls.Add(this.fechaFin);
             this.Controls.Add(this.fechaInicio);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(800, 450);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,5 +107,8 @@
         private System.Windows.Forms.DateTimePicker fechaInicio;
         private System.Windows.Forms.DateTimePicker fechaFin;
         private System.Windows.Forms.Label etiquetaInicio;
+        private System.Windows.Forms.Button Abrir;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

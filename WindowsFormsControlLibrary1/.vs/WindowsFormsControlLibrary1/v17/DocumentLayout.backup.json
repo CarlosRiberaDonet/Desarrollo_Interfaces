@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|z:\\github\\desarrollo_interfaces\\windowsformscontrollibrary1\\fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|solutionrelative:fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|z:\\github\\desarrollo_interfaces\\windowsformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|z:\\github\\desarrollo_interfaces\\windowsformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|solutionrelative:usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|z:\\github\\desarrollo_interfaces\\windowsformscontrollibrary1\\fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10F374E-3D4E-4A4B-9CE9-B52F53F25847}|WindowsFormsControlLibrary1.csproj|solutionrelative:fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 398,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,12 +34,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Fecha.cs",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\Fecha.cs",
               "RelativeDocumentMoniker": "Fecha.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\Fecha.cs*",
-              "RelativeToolTip": "Fecha.cs*",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\Fecha.cs",
+              "RelativeToolTip": "Fecha.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T12:17:28.321Z",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserControl1.cs",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs",
               "RelativeDocumentMoniker": "UserControl1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs",
-              "RelativeToolTip": "UserControl1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBYAAAAwAAAAAAAAAA==",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs*",
+              "RelativeToolTip": "UserControl1.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAA3wC0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T11:59:40.724Z",
               "EditorCaption": ""
@@ -64,8 +64,8 @@
               "Title": "UserControl1.cs [Dise\u00F1o]",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs",
               "RelativeDocumentMoniker": "UserControl1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControl1.cs [Dise\u00F1o]",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsControlLibrary1\\UserControl1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "UserControl1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T11:59:26.682Z",
               "EditorCaption": " [Dise\u00F1o]"

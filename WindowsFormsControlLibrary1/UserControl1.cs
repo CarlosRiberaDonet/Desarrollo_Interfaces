@@ -39,5 +39,13 @@ namespace WindowsFormsControlLibrary1
                 fechaInicio.Value = fechaFin.Value.AddDays(-1);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Multiselect = true;
+            openFileDialog1.Filter = "Imagenes|*.jpg";
+            openFileDialog1.ShowDialog();
+            pictureBox1.Image = Bitmap.FromFile(openFileDialog1.FileName);
+        }
     }
 }
