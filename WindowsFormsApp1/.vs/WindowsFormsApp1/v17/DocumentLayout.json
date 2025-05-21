@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|z:\\github\\desarrollo_interfaces\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|z:\\github\\desarrollo_interfaces\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|z:\\github\\desarrollo_interfaces\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|z:\\github\\desarrollo_interfaces\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A126457-CF04-4978-B7B6-D1D2686C0CA3}|WindowsFormsApp1.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 398,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCQAAAApAAAAAAAAAA==",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T12:09:05.798Z",
               "IsPinned": true,
@@ -48,15 +44,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:13:58.65Z",
+              "WhenOpened": "2025-05-21T11:39:25.44Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -71,38 +67,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:50:17.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:08:32.118Z",
+              "WhenOpened": "2025-05-21T11:38:44.415Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "Z:\\GitHub\\Desarrollo_Interfaces\\WindowsFormsApp1\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:08:55.472Z",
+              "WhenOpened": "2025-05-17T12:08:32.118Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

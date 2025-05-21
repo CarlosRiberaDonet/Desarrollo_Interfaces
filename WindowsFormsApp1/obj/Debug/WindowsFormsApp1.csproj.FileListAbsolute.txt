@@ -9,3 +9,4 @@ Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.cspr
 Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+Z:\GitHub\Desarrollo_Interfaces\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources

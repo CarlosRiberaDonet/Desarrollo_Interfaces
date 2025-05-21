@@ -17,14 +17,14 @@ namespace WindowsFormsApp1
         {
            
             InitializeComponent();
+            toolStrip1.Visible = false;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(this);
-            texto = "Soy Form1";
-            form2.ShowDialog();
-            MessageBox.Show("Nueva Linea");
+            openFileDialog1.ShowDialog();
+            textBox1.Text = openFileDialog1.FileName;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -35,6 +35,13 @@ namespace WindowsFormsApp1
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+            openFileDialog1.Filter = form3.value;
         }
     }
 }
